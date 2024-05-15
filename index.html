@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles.css'>
+    <script src='script.js'></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="team-info" id="team1-info">
+                        <table>
+                            <tr>
+                                <td>Takım Adı:</td>
+                                <td id="team1-name"></td>
+                            </tr>
+                            <tr>
+                                <td>Lig:</td>
+                                <td id="team1-league"></td>
+                            </tr>
+                            <tr>
+                                <td>Overall:</td>
+                                <td id="team1-overall"></td>
+                            </tr>
+                            <tr>
+                                <td>ATK:</td>
+                                <td id="team1-attack"></td>
+                            </tr>
+                            <tr>
+                                <td>ORT:</td>
+                                <td id="team1-midfield"></td>
+                            </tr>
+                            <tr>
+                                <td>DEF:</td>
+                                <td id="team1-defense"></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="team-info" id="team2-info">
+                        <table>
+                            <tr>
+                                <td>Takım Adı:</td>
+                                <td id="team2-name"></td>
+                            </tr>
+                            <tr>
+                                <td>Lig:</td>
+                                <td id="team2-league"></td>
+                            </tr>
+                            <tr>
+                                <td>Overall:</td>
+                                <td id="team2-overall"></td>
+                            </tr>
+                            <tr>
+                                <td>ATK:</td>
+                                <td id="team2-attack"></td>
+                            </tr>
+                            <tr>
+                                <td>ORT:</td>
+                                <td id="team2-midfield"></td>
+                            </tr>
+                            <tr>
+                                <td>DEF:</td>
+                                <td id="team2-defense"></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-6">
+                    <label for="minOverall">Minimum Overall:</label>
+                    <input type="number" id="minOverall" class="form-control" min="52" max="85" value="52">
+                </div>
+                <div class="col-md-6">
+                    <label for="maxOverall">Maksimum Overall:</label>
+                    <input type="number" id="maxOverall" class="form-control" min="52" max="85" value="85">
+                </div>
+            </div>
+            <div class="row mt-4">
+            </div>
+            <button id="random-button" class="btn btn-primary mt-4">Rastgele Takım Seç</button>
+        </div>
+    </body>
+</body>
+</html>
+
